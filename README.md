@@ -8,4 +8,6 @@ This program allows you to input the details of various anime series, including 
 
 The program also creates a folder called "Anime Calculations" in the user's documents folder, and saves the data from each anime entered as a text file and then puts that text file in the folder.
 
+Leave any suggestion that you might have in the "Issues" tab, and I might add them. 
+
 Feel free to use this program to track your anime calculate watch time efficiently and ensure you have enough time to enjoy your favorite series!
