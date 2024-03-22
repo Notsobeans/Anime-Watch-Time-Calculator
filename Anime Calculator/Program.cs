@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 
@@ -18,6 +19,11 @@ class Program
         } while (Console.ReadLine()?.ToLower() == "y");
 
         ListAllAnimeEntered();
+
+        Console.WriteLine(" ");
+        Console.WriteLine("When you're done looking at all the anime you entered, press Enter to open the output folder");
+        Console.ReadLine(); // Wait for user to press Enter to open the output folder
+        OpenOutputDirectory(); // Open the output folder
     }
 
     static void RunAnimeProgram()
@@ -114,7 +120,9 @@ class Program
 
     static void ListAllAnimeEntered()
     {
+        Console.WriteLine(" ");
         Console.WriteLine("List of all anime entered (sorted by highest to lowest total time):");
+        Console.WriteLine(" ");
 
         var sortedAnimeList = animeList
             .Select((anime, index) => new { Name = anime, Time = animeTotalTimes[index] })
@@ -126,6 +134,17 @@ class Program
         }
     }
 
+    static void OpenOutputDirectory()
+    {
+        string documentsFolder = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+        string oneDriveFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "OneDrive");
+
+        string folderPath = Path.Combine(Directory.Exists(documentsFolder) ? documentsFolder : oneDriveFolder, "Anime Calculations");
+
+        // Open the output directory in file explorer
+        Process.Start("explorer.exe", folderPath);
+    }
+
     static int GetIntegerInput(string prompt)
     {
         int result;
@@ -135,7 +154,6 @@ class Program
         } while (!int.TryParse(Console.ReadLine(), out result));
         return result;
     }
-
     static double GetDoubleInput(string prompt)
     {
         double result;

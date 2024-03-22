@@ -1,0 +1,14 @@
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\bin\Release\net6.0\Anime Calculator.exe
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\bin\Release\net6.0\Anime Calculator.deps.json
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\bin\Release\net6.0\Anime Calculator.runtimeconfig.json
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\bin\Release\net6.0\Anime Calculator.dll
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\bin\Release\net6.0\Anime Calculator.pdb
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.AssemblyInfoInputs.cache
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.AssemblyInfo.cs
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.csproj.CoreCompileInputs.cache
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.dll
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\refint\Anime Calculator.dll
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.pdb
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\Anime Calculator.genruntimeconfig.cache
+C:\Users\marni\OneDrive\Documents\0) My Files\Visual Studio Repos\Anime Calculator\Anime Calculator\obj\Release\net6.0\ref\Anime Calculator.dll
